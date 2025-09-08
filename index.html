@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессиональные бухгалтерские и юридические услуги</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-balance-scale"></i>
+                <span>ProFinance</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#form" class="btn">Оставить заявку</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="container">
+            <h1>Профессиональные бухгалтерские и юридические услуги</h1>
+            <p>Мы предоставляем комплексные решения для вашего бизнеса: от бухгалтерского сопровождения до юридического консультирования</p>
+            <a href="#form" class="btn">Получить консультацию</a>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="text-center">Наши услуги</h2>
+            <p class="text-center">Мы предлагаем широкий спектр услуг для юридических лиц и индивидуальных предпринимателей</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Бухгалтерское сопровождение</h3>
+                    <p>Полное ведение бухгалтерского и налогового учета для вашего бизнеса</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Юридические консультации</h3>
+                    <p>Профессиональные консультации по юридическим вопросам любой сложности</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Налоговое планирование</h3>
+                    <p>Оптимизация налоговой нагрузки и разработка законных схем налогообложения</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Регистрация бизнеса</h3>
+                    <p>Помощь в регистрации юридических лиц и индивидуальных предпринимателей</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Финансовый анализ</h3>
+                    <p>Анализ финансового состояния компании и разработка рекомендаций</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Кадровое делопроизводство</h3>
+                    <p>Оформление трудовых отношений и ведение кадрового учета</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="text-center">О нашей компании</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Компания ProFinance работает на рынке бухгалтерских и юридических услуг более 10 лет. За это время мы помогли сотням компаний оптимизировать свои бизнес-процессы и сократить расходы.</p>
+                    <p>Наша команда состоит из высококвалифицированных специалистов с многолетним опытом работы в различных отраслях экономики.</p>
+                    <p>Мы стремимся строить долгосрочные отношения с клиентами, основанные на взаимном доверии и профессионализме.</p>
+                    <a href="#form" class="btn">Связаться с нами</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Наша команда">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Формы -->
+    <section id="form" class="form-section">
+        <div class="container">
+            <h2 class="text-center">Свяжитесь с нами</h2>
+            <p class="text-center">Заполните одну из форм ниже, и наш специалист свяжется с вами в ближайшее время</p>
+            
+            <div class="form-container">
+                <div class="form-wrapper">
+                    <h3>Форма обратной связи</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+                
+                <div class="form-wrapper">
+                    <h3>Предварительный опрос</h3>
+                    <form id="survey-form">
+                        <div class="form-group">
+                            <label for="service-type">Интересующая услуга</label>
+                            <select id="service-type" required>
+                                <option value="">Выберите услугу</option>
+                                <option value="accounting">Бухгалтерское сопровождение</option>
+                                <option value="legal">Юридические консультации</option>
+                                <option value="tax">Налоговое планирование</option>
+                                <option value="registration">Регистрация бизнеса</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Тип компании</label>
+                            <select id="company" required>
+                                <option value="">Выберите тип</option>
+                                <option value="llc">ООО</option>
+                                <option value="ie">ИП</option>
+                                <option value="jsc">АО</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="employees">Численность сотрудников</label>
+                            <select id="employees" required>
+                                <option value="">Выберите количество</option>
+                                <option value="1-5">1-5</option>
+                                <option value="6-15">6-15</option>
+                                <option value="16-50">16-50</option>
+                                <option value="51+">51 и более</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-method">Предпочтительный способ связи</label>
+                            <select id="contact-method" required>
+                                <option value="">Выберите способ</option>
+                                <option value="email">Email</option>
+                                <option value="phone">Телефон</option>
+                                <option value="whatsapp">WhatsApp</option>
+                                <option value="telegram">Telegram</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn">Отправить опрос</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="text-center">Наши контакты</h2>
+            
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Адрес</h3>
+                    <p>г. Москва, ул. Примерная, д. 123, офис 45</p>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Телефон</h3>
+                    <p>+7 (495) 123-45-67</p>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@profinance.ru</p>
+                </div>
+                
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Режим работы</h3>
+                    <p>Пн-Пт: 9:00 - 18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ProFinance</h3>
+                    <p>Профессиональные бухгалтерские и юридические услуги для бизнеса</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Услуги</h3>
+                    <ul>
+                        <li><a href="#">Бухгалтерское сопровождение</a></li>
+                        <li><a href="#">Юридические консультации</a></li>
+                        <li><a href="#">Налоговое планирование</a></li>
+                        <li><a href="#">Регистрация бизнеса</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#form">Оставить заявку</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 ProFinance. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Простая валидация форм
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Спасибо! Ваше сообщение отправлено. Мы свяжемся с вами в ближайшее время.');
+            this.reset();
+        });
+        
+        document.getElementById('survey-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Благодарим за заполнение опроса! Наш специалист свяжется с вами в выбранным способом.');
+            this.reset();
+        });
+        
+        // Плавная прокрутка к якорям
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
