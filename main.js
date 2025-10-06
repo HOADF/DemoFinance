@@ -23,6 +23,13 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 100,
                         behavior: 'smooth'
+            window.addEventListener('scroll', () => {
+         document.querySelectorAll('section').forEach(sec => {
+         if (sec.getBoundingClientRect().top < window.innerHeight - 100)
+          sec.classList.add('visible');
+  });
+});
+                    
                     });
                 }
             });
