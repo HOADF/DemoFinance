@@ -119,7 +119,20 @@
             padding: 180px 0 100px;
             text-align: center;
         }
-        
+
+        .hero::before {
+           content: "";
+           position: absolute;
+           inset: 0;
+           background: rgba(0, 0, 0, 0.45);
+           z-index: 0;
+       }
+
+       .hero * {
+         position: relative;
+         z-index: 1;
+      }
+
         .hero h1 {
             font-size: 48px;
             margin-bottom: 20px;
